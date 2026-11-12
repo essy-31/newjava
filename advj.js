@@ -65,6 +65,55 @@
 // };
 // const jsonData= JSON.stringify(user);
 // console.log(jsonData);
-const jsonData=`{"name":"Rahul","age":25}`;
-const user= JSON.parse(jsonData);
-console.log(user);
+// const jsonData=`{"name":"Rahul","age":25}`;
+// const user= JSON.parse(jsonData);
+// console.log(user);
+
+// let ar1= [10,20,30];
+// let ar2= [40,50,60];
+// let ar3= ar1.concat(ar2);
+// ar3.push(15);
+// console.log(ar3);
+
+// COPY
+// let ar1= [10,20,30];
+// let ar2= [40,50,60];
+// let ar3=[...ar1]
+// console.log(...ar1);
+
+// REST & SPREAD
+// const numbers = [10, 20, 30, 40];
+
+// const copyArray = (arr) => {
+//     return [...arr];
+// };
+
+// const result = copyArray(numbers);
+
+// console.log(result);
+// console.log(numbers);
+
+// const arr1 = [1, 2, 3, 4, 5];
+
+// const arr2 = [7, 8, 9, 6];
+
+// const result = [...arr1, ...arr2];
+
+// console.log(result);
+
+// const numbers = [10, 20, 30];
+
+// const newNumbers = [...numbers, 40];
+
+// console.log(newNumbers);
+
+const numbers = [10, 20, 30];
+
+const newNum = [15, ...numbers];
+
+console.log(newNum);
+
+
+
+
+
